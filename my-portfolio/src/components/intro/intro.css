@@ -39,7 +39,6 @@
     letter-spacing: 1px;
 }
 .btnimg{
-    
     object-fit: cover;
     margin: 0 0.25rem;
     height: 2rem;
@@ -49,7 +48,7 @@
         margin-left:3rem ;
     }
     .bg{
-        margin-right: -70vw;  
+        margin-right: -130vw;  
         padding-right: 1vw;  
         height: 100vh;
     }
