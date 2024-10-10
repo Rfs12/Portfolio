@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './works.css';
 import projectimg1 from '../../assests/portt1 (1).png';
-import projectimg2 from '../../assests/portt1 (2).png';
 import projectimg3 from '../../assests/portt1 (3).png';
 import projectimg4 from '../../assests/igm.png';
 import projectimg5 from '../../assests/img2.png';
@@ -25,14 +24,12 @@ const Works = () => {
         <a href="https://github.com/Rfs12/e-commerce" target="_blank" rel="noopener noreferrer">
           <img src={projectimg3} className='worksimg' alt='Project 3'/>
         </a>
+        <a href="https://github.com/Rfs12/reactone" target="_blank" rel="noopener noreferrer">
+              <img src={projectimg4} className='worksimg' alt='Project 4'/>
+            </a> 
         {showMore && (
           <>
-            <a href="https://" target="_blank" rel="noopener noreferrer">
-              <img src={projectimg4} className='worksimg' alt='Project 4'/>
-            </a>
-            <a href="https://link-to-project5" target="_blank" rel="noopener noreferrer">
-              <img src={projectimg2} className='worksimg' alt='Project 5'/>
-            </a>
+           
           </>
         )}
         </div>

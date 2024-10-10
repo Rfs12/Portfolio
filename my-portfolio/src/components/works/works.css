@@ -33,7 +33,13 @@
     height:20rem;
     margin:0.2rem;
     width: 33vw;
-    border-radius: 0.5rem;  
+    border-radius: 0.5rem; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+a:hover .worksimg{
+    opacity: 0.7; /* Change opacity on hover */
+    transform: scale(1.02);
+    color: rgb(50,50,50);
 }
 .workBtn{
     padding: 0.5rem 2.5rem;
